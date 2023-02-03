@@ -1,0 +1,19 @@
+#box{
+    display:inline-block;
+    margin:10px;
+    width:100px;
+    height:150px;
+}
+#image{
+    width:100px;
+    height:130px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}

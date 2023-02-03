@@ -1,1 +1,17 @@
-<p>movie Updated</p>
+<form class="example-form">
+  <input type="text" placeholder="Enter Movie Name" (keyup)="setInputText($event)"/>
+  <button (click)="onSearchClicked()">Search</button>
+</form>
+<br/>
+<div id="box" *ngFor="let movie of Movies" >
+   <div>
+     <img id="image" [src]="movie.Poster"/>
+   </div>
+   <div>
+     <p>Title : {{movie.Title}}</p>
+     <p>Year : {{movie.Year}}</p>
+   </div>
+  <br/>
+ </div>
+
+
